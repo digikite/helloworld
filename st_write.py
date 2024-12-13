@@ -36,3 +36,15 @@ c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 
 st.write(c)  # 변수로 전달 받아서 표시도 가능
+
+
+# st.write 외에도, 다른 방법으로 텍스트를 표시하는 방법을 탐색할 수 있습니다.
+
+# st.markdown
+# st.header
+# st.subheader
+# st.caption
+# st.text
+# st.latex
+# st.code
+
